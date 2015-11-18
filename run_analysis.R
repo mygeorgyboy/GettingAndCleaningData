@@ -94,8 +94,8 @@ write.table(tidyData, './tidyData.txt', row.names = F)
 library(dplyr)
 averageData <- aggregate(x=tidyData, by=list(activities=tidyData$activity, subject=tidyData$subject), FUN=mean)
 averageData <- averageData[, !(colnames(average.df) %in% c("subject", "activity"))]
-str(average.df)
-write.table(average.df, './averageData.txt', row.names = F)
+str(averageData)
+write.table(averageData, './averageData.txt', row.names = F)
 
 ## Thats it
 
