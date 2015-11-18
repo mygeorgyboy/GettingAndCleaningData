@@ -4,7 +4,7 @@ Codebook
 Data Set Information
 ----------------------
 
-This dataset has been taken from  [This](http://archive.ics.uci.du/ml/datasets/Human+Activity+Recognition+Using+Smartphones# "Machine Learning Repository").
+This dataset has been taken from [this web page ](http://archive.ics.uci.du/ml/datasets/Human+Activity+Recognition+Using+Smartphones# "Machine Learning Repository").
 
 Source
 ------
